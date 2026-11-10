@@ -124,7 +124,7 @@ python export_tasks.py
 
 Нужен установленный Docker Desktop (он должен быть запущен). Если у вас уже работают backend или frontend из предыдущего раздела, сначала остановите их (Ctrl+C), иначе порт 3000 будет занят.
 
-В папке проекта (где лежит `docker-compose.yml`):
+В папке проекта:
 
 ```bash
 docker compose up -d --build
